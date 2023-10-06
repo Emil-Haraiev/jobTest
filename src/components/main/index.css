@@ -1,0 +1,88 @@
+.main{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(220deg, #3f3c3c, #000000, #524e4e);
+    background-size: 300% 300%;
+    animation: move-bg 10s linear infinite;
+}
+
+
+@keyframes move-bg {
+    0%{
+        background-position: 0%, 50%;
+    }
+    50%{
+        background-position: 100%, 50%;
+    }
+    100%{
+        background-position: 0%, 50%;
+    }
+}
+
+
+.logo{
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    margin-left: 5px;
+    z-index: 50;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.burger {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+    position: relative;
+}
+
+.burgerLine {
+    width: 23px;
+    height: 2px;
+    background-color: black;
+    margin: 3px 0;
+}
+
+.middle-line {
+    width: 13px;
+}
+
+.burger .open {
+    background-color: black;
+}
+
+.burger.open .burgerLine {
+    background-color: white;
+}
+
+.burger .open .burgerLine .middle-line {
+    transform: rotate(45deg);
+}
+
+.burger .open .burgerLine:last-child {
+    transform: rotate(-45deg); /* Поворот на 45 градусов вправо */
+}
+
+.burger .open::after {
+    content: ''; /* Создаем пустой элемент */
+    position: fixed; /* Фиксированное положение */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white; /* Белый цвет фона */
+    z-index: 999; /* Выше всех остальных элементов */
+    opacity: 0.9; /* Прозрачность фона */
+}
