@@ -1,11 +1,13 @@
-import logo from './assets/logo.png';
+
 import './App.css';
 import Main from "./components/main/Main";
+import WhyUs from "./components/WhyUs/WhyUs";
 
 function App() {
   return (
     <div className="App">
-      <Main/>
+        <Main/>
+        <WhyUs/>
     </div>
   );
 }

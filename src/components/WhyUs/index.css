@@ -1,0 +1,83 @@
+.why-us-container {
+    background-color: black;
+    padding: 10px;
+}
+.why-us-title{
+    margin: 0 0 20px 0;
+}
+.why-us-block {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.why-us-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 145px;
+    height: 140px;
+    border-radius: 15px;
+    background-color: white;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.icon {
+    width: 40px;
+    margin-top: 20px;
+    transition: transform 0.3s ease;
+}
+
+
+.why-us-item:hover {
+    transform: scale(1.1);
+}
+
+.icon:hover {
+    width: 60px;
+    transform: translateY(-5px);
+}
+
+.order-button {
+    display: block;
+    background-color: #007bff;
+    margin: 10px auto;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 30px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+.order-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+
+.order-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+}
+
+.order-button:hover::before {
+    transform: scaleX(1);
+}
+
+
