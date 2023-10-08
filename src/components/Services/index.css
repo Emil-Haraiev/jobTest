@@ -1,3 +1,7 @@
+.serviceWrap{
+  padding: 20px;
+}
+
 .serviceTitle{
     color: black;
 }
@@ -35,13 +39,12 @@
     color: black;
 }
 
-.tab-content {
-    /*width: 300px;*/
-    /*max-width: 100%;*/
+.item-wrap{
+    margin: 20px 20px;
 }
 
 .tab-item {
-    /*max-height: 0;*/
+    max-height: 0;
     width: 100%;
     margin-top: -7px;
     border-radius: 0 0 10px 10px;
