@@ -1,20 +1,27 @@
-import React, { useState } from 'react';
+import React, { useState} from 'react';
 import logo from '../../assets/logo.png'
 import './index.css';
 
 
 const Main = () => {
-    const [isOpen, setIsOpen] = useState(false)
+    const [isOpen, setIsOpen] = useState(false);
+
 
     const toggleMenu = () => {
         setIsOpen(!isOpen);
+        if (!isOpen) {
+            document.body.classList.add('scroll-locked');
+        } else {
+            document.body.classList.remove('scroll-locked');
+        }
     };
 
+
     return (
-        <div className='main'>
+        <div className='main' id='main'>
             <div className="menu">
                 <img className='logo' src={logo}/>
-                <div className='burger-menu' onClick={toggleMenu}>
+                <div className='burger-menu close'  onClick={toggleMenu}>
                     <div className={`burger ${isOpen ? 'open' : ''}`}>
                         <span className="burgerLine top-line"></span>
                         <span className="burgerLine middle-line"></span>
@@ -22,9 +29,9 @@ const Main = () => {
                     </div>
                     <nav className={`nav ${isOpen ? 'open' : ''}`}>
                         <ul>
-                            <li><a href="#f">Home</a></li>
-                            <li><a href="#a">Why us?</a></li>
-                            <li><a href="#d">Services</a></li>
+                            <li><a href="#main">Home</a></li>
+                            <li><a href="#whyus">Why us?</a></li>
+                            <li><a href="#services">Services</a></li>
                             <li><a href="#d">Our Projects</a></li>
                             <li><a href="#f">Contact</a></li>
                             <div className='contact'>Contacts:</div>

@@ -10,7 +10,7 @@ import afford from '../../assets/money.svg';
 
 const WhyUs = () => {
     return (
-        <div className='why-us-container'>
+        <div className='why-us-container' id='whyus'>
             <h1 className='why-us-title'>/ Why us?</h1>
             <div className="why-us-block">
                 <div className="why-us-item">
