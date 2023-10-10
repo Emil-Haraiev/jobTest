@@ -1,19 +1,22 @@
 .contact-container {
     text-align: center;
+    background-color: black;
+    min-height: 550px;
     padding: 20px;
-    background-color: #f7f7f7;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /*border: 2px solid white;*/
 }
 
-.contact-container h2 {
+.contact-title {
     font-size: 24px;
     margin-bottom: 20px;
+    color: white;
 }
 
 .contact-methods {
     display: flex;
     justify-content: center;
+    min-width: 300px;
+    flex-wrap: wrap;
     gap: 10px;
     margin-bottom: 20px;
 }
@@ -34,13 +37,15 @@
 .contact-form {
     display: flex;
     flex-direction: column;
+    max-width: 650px;
     align-items: center;
+    margin: 0 auto;
 }
 
 .contact-form input,
 .contact-form textarea {
     width: 100%;
-    padding: 10px;
+    padding: 15px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -57,6 +62,7 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-bottom: 30px;
     transition: background-color 0.3s ease;
 }
 
