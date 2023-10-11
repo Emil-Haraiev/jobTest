@@ -18,6 +18,7 @@ const Projects = () => {
                 spaceBetween={10}
                 centeredSlides
                 grabCursor
+                pagination={{ clickable: true }}
                 loop={true}
             >
                 <SwiperSlide className="project-slide">
