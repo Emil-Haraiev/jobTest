@@ -12,7 +12,7 @@ SwiperCore.use([]);
 const Projects = () => {
     return (
         <div className="project-container">
-            <h1 className="project-title">/ Projects</h1>
+            <h1 className="project-title" id='project'>/ Projects</h1>
             <Swiper
                 slidesPerView={1}
                 spaceBetween={10}
