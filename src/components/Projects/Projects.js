@@ -13,6 +13,7 @@ const Projects = () => {
     return (
         <div className="project-container">
             <h1 className="project-title" id='project'>/ Projects</h1>
+            <p className='project-p'>Swipe -></p>
             <Swiper
                 slidesPerView={1}
                 spaceBetween={10}
