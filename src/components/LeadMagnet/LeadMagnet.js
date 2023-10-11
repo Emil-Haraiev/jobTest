@@ -8,7 +8,7 @@ const LeadMagnet = () => {
         const offerTimer = setTimeout(() => {
             setShowOffer(true);
             document.documentElement.style.overflow = 'hidden';
-        }, 2000);
+        }, 6000);
 
         return () => {
             clearTimeout(offerTimer);
