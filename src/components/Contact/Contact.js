@@ -9,7 +9,7 @@ const Contact = () => {
         telegram: '',
         whatsapp: '',
         viber: '',
-        message: '',
+        message: ''
     });
 
     const handleContactMethodChange = (method) => {
