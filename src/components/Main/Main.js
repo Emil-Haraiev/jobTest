@@ -51,6 +51,9 @@ const Main = () => {
                 </svg>
                 Order
             </button>
+            <div className="mouse">
+                <div className="scroller"></div>
+            </div>
         </div>
     );
 };

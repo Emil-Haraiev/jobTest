@@ -13,11 +13,11 @@ const Projects = () => {
     return (
         <div className="project-container">
             <Swiper
-                slidesPerView={3}
+                slidesPerView={1}
                 spaceBetween={20}
                 centeredSlides
                 grabCursor
-                loop={false}
+                loop={true}
             >
                 <SwiperSlide className="project-slide">
                     <img className='slide-img' src={slide1} alt="Slide 1" />

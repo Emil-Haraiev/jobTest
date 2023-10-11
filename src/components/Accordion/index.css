@@ -1,0 +1,80 @@
+
+:root {
+    --ff:  sans-serif;
+    --fw_400: 400;
+    --fw_500: 500;
+    --headline: #0d0d0d;
+    --text: #2a2a2a;
+}
+.accordion-title{
+    margin-bottom: 30px;
+    color: black;
+}
+
+body {
+    background: white;
+}
+
+.container {
+    max-width: 580px;
+    margin: 80px auto;
+}
+
+.accordion-item {
+    background: #fffffe;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.accordion-item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.accordion-part-header {
+    font-family: var(--ff);
+    font-weight: var(--fw_500);
+    color: var(--headline);
+    padding: 20px;
+    padding-right: 50px;
+    font-size: 20px;
+    position: relative;
+    cursor: pointer;
+}
+.accordion-part-header::after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url('https://gistcdn.githack.com/koptyaisky/c067fcb9f4816fa54be550d3a4ce77ff/raw/84bd01bc3bb17fe4941afff7e3b564eca1cbefed/arrow-down.svg') no-repeat center;
+    background-size: contain;
+    position: absolute;
+    transition: 0.7s ease;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 20px;
+}
+.accordion-part-header-opened::after {
+    transform: rotate(-180deg);
+}
+.accordion-part-text {
+    font-family: var(--ff);
+    font-weight: var(--fw_400);
+    color: var(--text);
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+}
+.accordion-part-body {
+    padding: 15px 40px 20px 20px;
+    position: relative;
+}
+.accordion-part-body::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    width: 40px;
+    height: 2px;
+    background: aqua;
+}
