@@ -6,6 +6,7 @@ import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
 import Accordion from "./components/Accordion/Accordion";
 import Brief from "./components/Brief/Brief";
+import LeadMagnet from "./components/LeadMagnet/LeadMagnet";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Contact/>
         <Accordion/>
         <Brief/>
+        <LeadMagnet/>
     </div>
   );
 }

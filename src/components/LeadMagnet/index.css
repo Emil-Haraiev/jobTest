@@ -1,0 +1,67 @@
+.magnet-wrapper {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: black;
+    border: 2px solid white;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+}
+
+.magnet-text {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.magnet-input {
+    width: 230px;
+    padding: 10px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    color: black;
+    border: 1px solid white;
+}
+
+.magnet-input:focus{
+    outline: none;
+}
+
+.magnet-input::placeholder {
+    color: black;
+}
+
+.magnet-btn-cls {
+    color: white;
+    border: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 100%;
+    background-color: black;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+
+.magnet-btn-send{
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+/*@media (max-width: 768px) {*/
+/*    .magnet-wrapper {*/
+/*        width: 90%;*/
+/*        padding: 10px;*/
+/*    }*/
+/*}*/
