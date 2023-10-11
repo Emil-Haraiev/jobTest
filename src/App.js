@@ -7,6 +7,7 @@ import Contact from "./components/Contact/Contact";
 import Accordion from "./components/Accordion/Accordion";
 import Brief from "./components/Brief/Brief";
 import LeadMagnet from "./components/LeadMagnet/LeadMagnet";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Accordion/>
         <Brief/>
         <LeadMagnet/>
+        <Footer/>
     </div>
   );
 }

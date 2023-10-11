@@ -21,7 +21,7 @@ const AccordionItem = ({ accordion, isOpen, onHeaderClick }) => {
 };
 
 const AccordionList = ({ accordions }) => {
-    const [activeAccordion, setActiveAccordion] = useState(0);
+    const [activeAccordion, setActiveAccordion] = useState(-1);
 
     const headerClick = (index) => {
         setActiveAccordion((prev) => (prev === index ? -1 : index));

@@ -2,10 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@1,100&display=swap');
 
 
+
 .main{
     width: 100%;
     height: 100vh;
-    background: linear-gradient(220deg, #3f3c3c, #000000, #524e4e, #ffffff);
+    background-color: black;
     background-size: 300% 300%;
     animation: move-bg 10s linear infinite;
 }
@@ -161,7 +162,13 @@
 .nav ul li a:hover::before {
     width: 100%;
 }
+a{
+    text-decoration: none;
+}
 
+.nav-item-link{
+    color: white;
+}
 .nav ul {
     list-style: none;
     padding: 0;
@@ -189,9 +196,31 @@ h1{
     text-align: center;
     font-family: 'Albert Sans', sans-serif;
     color: white;
-    margin: 20px 0;
+    margin: 20px 10px;
 }
 
+.main-nav-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-wrap{
+    display: flex;
+    margin-right: 20px;
+    color: white;
+
+}
+
+.nav-item{
+    margin-right: 40px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.nav-item-link{
+    cursor: pointer;
+}
 
 .button{
     --width:100px;
@@ -201,7 +230,7 @@ h1{
     width: var(--width);
     height: var(--height);
     line-height:var(--height);
-    color:#00bfff;
+    color: white;
     padding: 0;
     margin: 100px auto;
     border: none;
@@ -229,8 +258,10 @@ h1{
     height: 100%;
     fill:none;
 }
+
+
 .button-rect{
-    stroke:#00bfff;
+    stroke: white;
     stroke-width:5;
     stroke-dasharray:var(--height) var(--width);
     stroke-dashoffset:calc(
@@ -281,3 +312,17 @@ h1{
     10% { transform: translateY(0); opacity: 1; }
     100% { transform: translateY(15px); opacity: 0;}
 }
+
+@media (max-width: 769px) {
+    .mouse {
+        display: none;
+    }
+}
+
+@media (max-width: 1023px){
+    .nav-wrap{
+        display: none;
+    }
+}
+
+

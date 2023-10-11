@@ -1,9 +1,10 @@
 .why-us-container {
-    background: linear-gradient(to bottom, rgba(10, 10, 10, 0.97), rgba(21, 21, 21, 0.96), #ffffff);
+    background-color: black;
     padding: 10px;
 }
 .why-us-title{
-    margin: 0 0 20px 0;
+    font-size: 26px;
+    margin: 20px 0 50px 0;
 }
 .why-us-block {
     display: flex;
@@ -44,9 +45,9 @@
 
 .order-button {
     display: block;
-    background-color: #007bff;
-    margin: 10px auto;
-    color: white;
+    background-color: white;
+    margin: 30px auto;
+    color: black;
     border: none;
     border-radius: 5px;
     padding: 20px 30px;
@@ -64,7 +65,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.8);
     transform: scaleX(0);
     transform-origin: left;
     transition: transform 0.3s ease;
@@ -72,7 +73,7 @@
 
 
 .order-button:hover {
-    background-color: #0056b3;
+    background-color: white;
     transform: translateY(-3px);
 }
 

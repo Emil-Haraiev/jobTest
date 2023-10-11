@@ -8,16 +8,17 @@
 
 .brief-title{
     color: black;
-    font-size: 38px;
+    font-size: 26px;
 }
 
 
 .brief-btn{
     display: block;
-    margin: 0 auto;
+    margin: 20px auto;
     width: 200px;
     background: none;
     border: 2px solid;
+    cursor: pointer;
     font: inherit;
     padding: 1em 2em;
 }

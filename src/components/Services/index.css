@@ -5,6 +5,7 @@
 
 .serviceTitle{
     color: black;
+    font-size: 26px;
 }
 
 .tab-container {
@@ -75,8 +76,8 @@
 .want-btn {
     display: block;
     margin: 0 auto;
-    background: rgb(0,172,238);
-    background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
+    background: black;
+    background: black;
     width: 130px;
     height: 40px;
     line-height: 42px;
@@ -96,7 +97,7 @@
     content: "";
     right: 0;
     top: 0;
-    background: rgba(2,126,251,1);
+    background: black;
     transition: all 0.3s ease;
 }
 .want-btn:before {
@@ -118,7 +119,7 @@
     width: 100%;
 }
 .want-btn span:hover{
-    color: rgba(2,126,251,1);
+    color: black;
 }
 .want-btn span:before,
 .want-btn span:after {
@@ -126,7 +127,7 @@
     content: "";
     left: 0;
     bottom: 0;
-    background: rgba(2,126,251,1);
+    background: black;
     transition: all 0.3s ease;
 }
 .want-btn span:before {

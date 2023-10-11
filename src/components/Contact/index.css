@@ -3,11 +3,11 @@
     background-color: black;
     min-height: 550px;
     padding: 20px;
-    /*border: 2px solid white;*/
 }
 
 .contact-title {
-    font-size: 24px;
+    font-size: 26px;
+    font-weight: normal;
     margin-bottom: 20px;
     color: white;
 }
@@ -31,7 +31,7 @@
 }
 
 .contact-method.active {
-    background-color: #007bff;
+    background-color: #b6afaf;
 }
 
 .contact-form {
@@ -50,6 +50,13 @@
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+.contact-form input:focus{
+    outline: none;
+}
+
+.contact-form textarea:focus{
+    outline: none;
+}
 
 .contact-form textarea {
     height: 150px;
@@ -57,9 +64,9 @@
 
 .contact-form button {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: transparent;
     color: white;
-    border: none;
+    border: 1px solid white;
     border-radius: 5px;
     cursor: pointer;
     margin-bottom: 30px;
@@ -67,5 +74,5 @@
 }
 
 .contact-form button:hover {
-    background-color: #0056b3;
+    background-color: gray;
 }
