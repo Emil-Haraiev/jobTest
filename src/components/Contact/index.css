@@ -15,7 +15,7 @@
 .contact-methods {
     display: flex;
     justify-content: center;
-    min-width: 300px;
+    /*min-width: 300px;*/
     flex-wrap: wrap;
     gap: 10px;
     margin-bottom: 20px;

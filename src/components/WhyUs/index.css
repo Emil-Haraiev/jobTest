@@ -9,8 +9,28 @@
 .why-us-block {
     display: flex;
     flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+    /*max-gap: 10px;*/
     align-items: center;
     justify-content: space-between;
+}
+@media (max-width: 1023px) {
+    .why-us-container{
+
+    }
+    .why-us-block{
+        width: 500px;
+    }
+}
+
+@media (max-width: 566px) {
+    .why-us-container{
+
+    }
+    .why-us-block{
+        width: 300px;
+    }
 }
 
 .why-us-item {
