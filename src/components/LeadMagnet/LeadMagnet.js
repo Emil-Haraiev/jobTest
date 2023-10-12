@@ -22,7 +22,9 @@ const LeadMagnet = () => {
     };
 
     return (
-        showOffer && (
+        <>
+            {showOffer && <div className="overlay"></div>}
+            {showOffer && (
             <div className="magnet-wrapper">
                 <button className="magnet-btn-cls" onClick={handleCloseOffer}>
                     &times;
@@ -32,7 +34,8 @@ const LeadMagnet = () => {
                 <input  className='magnet-input' type="text" placeholder="Phone number" />
                 <button className='magnet-btn-send'>Send</button>
             </div>
-        )
+            )}
+        </>
     );
 };
 
