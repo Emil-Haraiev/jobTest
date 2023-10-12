@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jobTest/static/css/main.beddc42a.css",
-    "main.js": "/jobTest/static/js/main.7a678d9d.js",
+    "main.css": "/jobTest/static/css/main.24ecc805.css",
+    "main.js": "/jobTest/static/js/main.66fcb9fb.js",
     "static/media/slide3.png": "/jobTest/static/media/slide3.f1d022815bb058f4796d.png",
     "static/media/slide2.png": "/jobTest/static/media/slide2.5f78fb14375a3e383975.png",
     "static/media/slide1.png": "/jobTest/static/media/slide1.6d4d8c1c35d0c67ba1ff.png",
@@ -10,19 +10,19 @@
     "static/media/money.svg": "/jobTest/static/media/money.c0381e22215d6251a740aa341ba7766d.svg",
     "static/media/tiktok.svg": "/jobTest/static/media/tiktok.3e17d347ae3244130089acb85f74ad78.svg",
     "static/media/linkedin.svg": "/jobTest/static/media/linkedin.c0ee65d207098d8ddd9ec3fdb591467f.svg",
-    "static/media/speed.svg": "/jobTest/static/media/speed.ed4f9d9655beb8b6606fdb2891ae3d60.svg",
+    "static/media/speed.svg": "/jobTest/static/media/speed.6cbc45ae495335349707070e2c5aef9e.svg",
     "static/media/innovation.svg": "/jobTest/static/media/innovation.c7277670086ecb60fd7500176bfeb41c.svg",
-    "static/media/quality.svg": "/jobTest/static/media/quality.0892ce97ac937511e5567eb55c184de8.svg",
+    "static/media/quality.svg": "/jobTest/static/media/quality.10f7300a1303d33a3c6708faee589e5d.svg",
     "static/media/prof.svg": "/jobTest/static/media/prof.0b662c3169cf95ec9574d5ecd9af6b49.svg",
     "static/media/telegram.svg": "/jobTest/static/media/telegram.3067d6177ed46a1f0b678b01afdf613a.svg",
     "index.html": "/jobTest/index.html",
     "static/media/facebook.svg": "/jobTest/static/media/facebook.494b680f0f1e69411186dcdd5fd83066.svg",
     "static/media/trust.svg": "/jobTest/static/media/trust.f33e7ca2cbbba08f80396058530d63a1.svg",
-    "main.beddc42a.css.map": "/jobTest/static/css/main.beddc42a.css.map",
-    "main.7a678d9d.js.map": "/jobTest/static/js/main.7a678d9d.js.map"
+    "main.24ecc805.css.map": "/jobTest/static/css/main.24ecc805.css.map",
+    "main.66fcb9fb.js.map": "/jobTest/static/js/main.66fcb9fb.js.map"
   },
   "entrypoints": [
-    "static/css/main.beddc42a.css",
-    "static/js/main.7a678d9d.js"
+    "static/css/main.24ecc805.css",
+    "static/js/main.66fcb9fb.js"
   ]
 }
