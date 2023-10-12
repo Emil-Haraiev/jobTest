@@ -65,12 +65,13 @@
 
 .order-button {
     display: block;
+    width: 130px;
+    height: 40px;
     background-color: white;
     margin: 30px auto;
     color: black;
     border: none;
     border-radius: 5px;
-    padding: 20px 30px;
     cursor: pointer;
     position: relative;
     overflow: hidden;

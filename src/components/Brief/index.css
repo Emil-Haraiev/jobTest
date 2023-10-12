@@ -15,12 +15,13 @@
 .brief-btn{
     display: block;
     margin: 20px auto;
-    width: 200px;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
     background: none;
     border: 2px solid;
     cursor: pointer;
     font: inherit;
-    padding: 1em 2em;
 }
 
 
